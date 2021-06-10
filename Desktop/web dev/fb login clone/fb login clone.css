@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(59, 59, 167);
+
+
+}
+
+#form{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+} 
+
+.formtabs{
+    
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+#info{
+    margin: auto;
+}
+
+#signup{
+    margin: auto;
+}
+
+#name{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.lists{
+
+}
+
+#button{
+    background-color: green;
+    width: 20px;
+}
