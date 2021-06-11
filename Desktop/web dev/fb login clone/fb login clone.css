@@ -2,19 +2,38 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: rgb(255, 255, 255);
+    color: rgb(188, 199, 199);
 }
+
+h2{
+    color: black;
+}
+
+h3{
+    color: black;
+
+}
+
+
 header{
     display: flex;
     flex-direction: row;
     background-color: rgb(59, 59, 167);
+    margin: 0px;
+    padding: 0px;
 
 
+}
+#label{
+    color: white;
+    padding-left: 20px;
 }
 
 #form{
     display: flex;
     flex-direction: row;
     margin: auto;
+    padding-left: 500px;
     
 } 
 
@@ -36,9 +55,15 @@ section{
     margin: auto;
 }
 
+form{
+    display:flex;
+    flex-direction: column;
+    width: 250px;
+}
 #name{
+    margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     
     
 }
