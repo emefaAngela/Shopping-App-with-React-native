@@ -36,6 +36,9 @@ header{
     padding-left: 500px;
     
 } 
+#passwordtab{
+    margin-left: 10px;
+}
 
 .formtabs{
     
@@ -64,15 +67,26 @@ form{
     margin: auto;
     display: flex;
     flex-direction: row-reverse;
-    
-    
+   
 }
+input[type=Submit]{
+    width:100% ;
+    margin-left: 0px;
+    background-color: green;
+    color:white;
+}
+
+input[type=Login]{
+    width: 30%;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(125, 125, 236);
+    text-align: center;
+}
+
+
 
 .lists{
 
 }
 
-#button{
-    background-color: green;
-    width: 20px;
-}
