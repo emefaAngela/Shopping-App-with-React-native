@@ -1,17 +1,29 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(188, 199, 199);
+    background-color: rgb(221, 237, 252);
+    color: rgb(197, 199, 204);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
     color: black;
 }
 
-h3{
+#h3{
     color: black;
+    font-size: 20px;
 
+}
+
+#h4{
+    color: black;
+    font-size: 12px;
+}
+
+text{
+    color: rgb(197, 199, 204);
+    font-size: 12px;
 }
 
 
@@ -20,13 +32,19 @@ header{
     flex-direction: row;
     background-color: rgb(59, 59, 167);
     margin: 0px;
-    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 55px;
 
 
 }
 #label{
     color: white;
     padding-left: 20px;
+    padding-bottom: 50px;
+    
+    margin-bottom: 20px;
+    
 }
 
 #form{
@@ -34,24 +52,34 @@ header{
     flex-direction: row;
     margin: auto;
     padding-left: 500px;
-    
-} 
+    font-size: 10px;
+    margin-right: 0px;
+       
+}
 #passwordtab{
     margin-left: 10px;
 }
+       
 
-.formtabs{
-    
-    
+input[type="Last name"]{
+    margin-left: 10px;
 }
 
 section{
     display: flex;
     flex-direction: row;
+    background-color: rgb(221, 237, 252);
+    margin-right:20px;
+    margin-left: 20px;
+    margin: auto;
+    
 }
 
 #info{
     margin: auto;
+    margin-right: 20px;
+    margin-left: 40px;
+    
 }
 
 #signup{
@@ -62,6 +90,8 @@ form{
     display:flex;
     flex-direction: column;
     width: 250px;
+    font-size: 15px;
+    background-color:rgb(221, 237, 252);;
 }
 #name{
     margin: auto;
@@ -69,11 +99,16 @@ form{
     flex-direction: row-reverse;
    
 }
-input[type=Submit]{
-    width:100% ;
+input[type="Sign Up"]{
+    width:50% ;
     margin-left: 0px;
     background-color: green;
-    color:white;
+    color:#fffffff3;
+    border: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    text-align: center;
 }
 
 input[type=Login]{
@@ -82,11 +117,49 @@ input[type=Login]{
     color: white;
     background-color: rgb(125, 125, 236);
     text-align: center;
+    border: 0px;
+    text-emphasis-color: 
 }
 
 
 
-.lists{
+#radio{
+    display: flex;
+    flex-direction: row;
+    color: black;
+
 
 }
+
+label[for="birthday"]{
+    color: black;
+    font-style:inherit;
+}
+.birthdate{
+    display: flex;
+    flex-direction: row;
+    font-size: 9px;
+    margin-left: 0px;
+    
+    
+}
+#month{
+    width:80%;
+    height:25px;
+    font-size: 10px;
+    
+}
+#day{
+    width:80%;
+    height:25px;
+    margin-left: 0px;
+    font-size: 10px;
+}
+#year{
+    width:80%;
+    height: 25px;px;
+    margin-left: 0px;
+    font-size: 10px;
+}
+
 
