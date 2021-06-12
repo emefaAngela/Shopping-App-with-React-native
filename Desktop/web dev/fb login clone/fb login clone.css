@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(221, 237, 252);
+    background-color: #fff;
     color: rgb(197, 199, 204);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,7 +30,7 @@ text{
 header{
     display: flex;
     flex-direction: row;
-    background-color: rgb(59, 59, 167);
+    background-color: #3b5998;
     margin: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -42,7 +42,6 @@ header{
     color: white;
     padding-left: 20px;
     padding-bottom: 50px;
-    
     margin-bottom: 20px;
     
 }
@@ -103,7 +102,7 @@ input[type="Sign Up"]{
     width:50% ;
     margin-left: 0px;
     background-color: green;
-    color:#fffffff3;
+    color:white;
     border: 0px;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -115,10 +114,10 @@ input[type=Login]{
     width: 30%;
     margin-left: 10px;
     color: white;
-    background-color: rgb(125, 125, 236);
+    background-color: #496194;
     text-align: center;
     border: 0px;
-    text-emphasis-color: 
+     
 }
 
 
@@ -138,27 +137,35 @@ label[for="birthday"]{
 .birthdate{
     display: flex;
     flex-direction: row;
-    font-size: 9px;
-    margin-left: 0px;
+    font-size: 8px;
+    
     
     
 }
 #month{
     width:80%;
-    height:25px;
     font-size: 10px;
+    height: 20px;
     
 }
 #day{
     width:80%;
-    height:25px;
-    margin-left: 0px;
-    font-size: 10px;
+    height:30px;
+    margin-left: -19px;
+    font-size: 8px;
 }
 #year{
     width:80%;
-    height: 25px;px;
-    margin-left: 0px;
+    height: 25px;
+    margin-left: -45px;
+    font-size: 8px;
+}
+#h6{
+    margin-left: -35px;
+    color: blue;
+}
+#footer{
+    color: blue;
     font-size: 10px;
 }
 
