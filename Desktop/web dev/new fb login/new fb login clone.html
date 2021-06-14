@@ -1,7 +1,125 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <style>
+          body{
+              background-color: whitesmoke;
+              color: black;
+              font-family: Helvetica, Arial, sans-serif;
+              
 
+          }
+          
+          section{
+              display: flex;
+              flex-direction: row;
+
+          }
+
+          #info{
+              margin: auto;
+              margin-top: 200px;
+          }
+
+          #h1{
+            font-size: 50px;
+            color: blue;
+          }
+
+          #h2{
+              font-size: 20px;
+          }
+
+          #form{
+              margin: auto;
+              display: flex;
+              flex-direction: column;
+
+
+          }
+
+          #formarea{
+              display: flex;
+              flex-direction: column;
+          }
+
+           #box{
+               width: auto;
+               height: 350px;
+               border: 0px;
+               border-radius: 5px;
+               background-color:white;
+               margin-left: 4px;
+               margin-top: 100px;
+
+           } 
+
+          form{
+            width: 350px;
+            height: 30px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border-radius: 3px;
+            margin-left: 15px;
+          }
+
+          #login{
+              background-color: blue;
+              color: white;
+              text-align: center;
+              width: 310px;
+              height: 50px;
+              border: 0px;
+              border-radius: 5px;
+              margin-left: 9px;
+            
+             
+          }
+
+          #footnote{
+            color: blue;
+            text-align: center;
+          }
+
+          #submit{
+            color: white;
+            background-color: greenyellow;
+            margin-left: 70px;
+            width: 200px;
+            height: 50px;
+            border: 0px;
+            border-radius: 5px;
+          }
+
+          #footer{
+              text-align: center;
+
+          }
+
+          text{
+              color: black;
+
+          }
+
+          #name{
+            width: 300px;
+            height: 50px;
+            border-color: whitesmoke;
+            font-size: 12px;
+            border-radius: 5px;
+            margin-left: 10px;
+            background-color: white;
+          }
+          #password{
+            width: 300px;
+            height: 50px;
+            border-radius: 5px;
+            border-color: whitesmoke;
+            margin-left: 10px;
+            background-color: white;
+            font-size: 12px;
+          }
+      </style>
     </head>
     <title>
         Facebook - Log In or Sign Up
@@ -9,26 +127,33 @@
     <body>
         <section>
             <div id="info">
-                <h1>facebook</h1>
-                <p><h2>Connect with friends and the world <br> around you on Facebook</h2></p>
+                <text id="h1"><b>facebook</b></text><br><br>
+                <text id="h2"><b>Connect with friends and the world</b> <br><b> around you on Facebook</b></text>
             </div>
 
             <div id="form">
-             <box>
+                <div id="formarea">
+             <div id="box">
                <form>
-                   <input type="text" id="name" placeholder="Email or Phone Number">
-                   <input type="password" id="password" placeholder="Password">
-                   <input type="button" id="login" placeholder="Log In">
-                   <p id="footnote">Forgot Pasword?</p><br>
+                  <p> <input type="text" id="name" placeholder="Email or Phone Number"><br></p>
+                   <input type="password" id="password" placeholder="Password"><br><br>
+                   <input type="button" id="login" placeholder="Log In" label="Log in">
+                   <p id="footnote">Forgot Pasword?</p>
                    <hr>
                    <input type="submit" id="submit" placeholder="Create New Account">
 
                </form>
-             </box>
-            <p id="footer">
-                <text><b>Create a Page</b></text> for a celebrity,band or business.
-            </p>
+                </div><br>
+
+                <div id="footer">
+            
+                    <text><b>Create a Page</b></text> for a celebrity,band or business.
+                
+                </div>
+             </div>
             </div>
+            
+            
         </section>
     </body>
 </html>
