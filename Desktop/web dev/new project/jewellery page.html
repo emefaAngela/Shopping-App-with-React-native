@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
+        <link rel="stylesheet" href="jewelpage.css">
     </head>
-    <title>
-
-    </title>
+  
     <body>
          
         <header>
@@ -21,8 +19,9 @@
                         <li>BLOG</li>
                         <li>CONTACTS</li>
                         <li>PAGES</li>
-                        <li><img src="search.jpg"></li>
-                        <li><img src="nav.png"></li>
+                        <li><img src="cart.png" style="height: 30px; width: 30px"></li>
+                        <li><img src="search.jpg" style="height: 30px; width: 30px;"></li>
+                        <li><img src="nav.png" style="height: 30px; width: 30px; background-color: white;"></li>
                     </ul>
                 </nav>
             </div>
@@ -32,34 +31,43 @@
             <div id="explorepage">
                 <h1>BEAUTY</h1>
                 <h4>THAT IMPRESSES</h4>
-                <p>Enhance your beauty with our jewelry that is both spectacular<br>
-                     and affordable.Browse our catalog to find what you prefer. </p>
+                <p id="grid1text">Enhance your beauty with our jewelry that is both spectacular<br><br>
+                     and affordable.Browse our catalog to find what you prefer. </p><br><br>
                  <button type="reset" id="explore">EXPLORE</button>    
             </div>
-
+            <br>
             <div id="cart">
                  <div id="model">
-
+                        <img src="model.jpg">
                  </div>
 
                  <div id="items">
-                     <div class="cart row">
-                          <div class="jewellery"><img src="item 1.jpg"></div>
-                          <div class="jewellery"><img src="item 2.jpg"></div>
-                     </div>
+                     <div class="cartrow">
+                          <div class="jewellery"><img src="item 1.jpg"><br>
+                        <b id="name">Amulette De Cartier Ring</b> <br>
+                    <p id="price">$63.00</p>
+                          </div>
+                          <div class="jewellery"><img src="item 2.jpg"><br>
+                            <b id="name">Cartier Dark Necklace</b> <br>
+                            <p id="price">$93.00</p></div>
+                          </div>  
 
-                     <div class="cart row">
-                           <div class="jewellery"><img src="item 3.jpg"></div>
-                           <div class="jewellery"><img src="item 4.jpg"></div>
+                     <div class="cartrow">
+                           <div class="jewellery"><img src="item 3.jpg"><br>
+                            <b id="name">Axstone Violet Necklace</b> <br>
+                            <p id="price">$59.00</p></div>
+                           <div class="jewellery"><img src="item 4.jpg"><br>
+                            <b id="name">Rhinestone Earrings</b> <br>
+                            <p id="price">$54.00</p></div>
                      </div>
                  </div>
             </div>
 
-            <div id="grid block 3">
-                  <h2>MADE WITH LOVE</h2>
-                  <P> Enim neque volutpat ac tincidunt vitae. Elit at imperdiet dui accumsan sit emet nulla<br>
+            <div id="gridblock3">
+                 <div id="container"></div> <h2>MADE WITH LOVE</h2>
+                  <P id="grid3text"> Enim neque volutpat ac tincidunt vitae. Elit at imperdiet dui accumsan sit emet nulla<br>
                    facilisi morbi sit amet nulla facilisi morbi</P>
-                   <button type="reset" id="watch video">WATCH VIDEO</button>
+                   <div class="button"><button type="reset" id="watchvideo">WATCH VIDEO</button></div></div>
             </div>
         </section>
     </body>
