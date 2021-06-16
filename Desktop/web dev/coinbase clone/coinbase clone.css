@@ -1,0 +1,51 @@
+body{
+
+}
+header{
+    display:flex ;
+    flex-direction: row;
+    margin: auto;
+}
+h1{
+    color: blue;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+ul{
+    display: inline-block;
+    margin: auto;
+    margin-left: 120px;
+}
+
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+
+}
+#signin{
+    margin-top: 15px;
+    margin-left: 60px;
+}
+#getstarted{
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+    border: 0px;
+    height: 30px;
+    border-radius: 2px;
+}
+#portfolio{
+display: flex;
+flex-direction: row;
+}
+#portfoliotext{
+margin: auto;
+}
+#portfolioimage{
+background-color: white;
+}
+h2{
+    font-size: 60px;
+}
