@@ -1,0 +1,199 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.sidebar {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.logo_section {
+    height: 100px;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: calc(100% - 40px);
+}
+
+.link {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.h-6, .w-6 {
+    font-size: 89pc;
+}
+
+
+.active {
+    background-color: darkblue;
+}
+
+#container{
+       display: flex;
+       flex-direction: row;
+       margin: none;
+       padding: none;
+}
+
+aside{
+    background-color: blue;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+    
+    /* margin: none; */
+
+}
+#logo{
+    list-style-type: none;
+    
+    
+}
+#aside_nav{
+
+}
+
+.aside_nav{
+    
+    list-style-type: none;
+    
+    
+    
+}
+
+#info{
+    background-color: rgb(244, 245, 245);
+    width: 250px;
+    padding: 30px;
+}
+
+#button{
+    height: 30px;
+    width: 45px;
+    border: solid 2px rgb(240, 58, 58);
+    border-radius: 30px;
+    margin-left: 180px;
+
+}
+
+#plus_sign{
+    padding-top: 5px;
+    text-align: center;
+    color: brown;
+}
+.areas{
+    padding: 10px;
+}
+
+.title{
+    text-emphasis: bold;
+    color: black;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    border: solid 1px;
+    margin-left: -25px;
+    margin-top: 50px;
+    
+}
+#p{
+    border-color: blue;
+
+}
+#l{
+    border-color: brown;
+}
+#pr{
+    border-color: green;
+}
+
+#data{
+    background-color: white;
+
+}
+
+header{
+    width: 600px;
+    height: 20px;
+    border-radius: 20px;
+    border: solid 2px whitesmoke;
+    padding: 10px;
+    margin: 20px;
+}
+
+#header{
+    margin: 10px;
+}
+
+#data_nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#und{
+    text-decoration: underline solid 3px rgb(240, 58, 58);
+}
+
+.data_nav{
+    margin: 10px;
+}
+
+#boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    border: solid 2px whitesmoke;
+    border-radius: 2px;
+    margin: 20px;
+    padding: 10px;
+}
+#s_box{
+    border-color: rgb(253, 100, 100);
+}
+
+.select{
+    width: 120px;
+    height: 20px;
+    border: solid 1px rgb(240, 58, 58);
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    color: rgb(240, 58, 58);
+}
+
+#selected{
+    background-color:rgb(240, 58, 58);
+    color: white;
+}
+
+
